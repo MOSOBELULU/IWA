@@ -27,9 +27,9 @@ const STATUS_MAP = {
 }
 // Edit below line
 const book = document.querySelector('#book1')
-const reserveBtn = book.querySelector('.reserve')
-const checkoutBtn = book.querySelector('.checkout')
-const checkinBtn = book.querySelector('.checkin')
+const reserveB = book.querySelector('.reserve')
+const checkoutB = book.querySelector('.checkout')
+const checkinB = book.querySelector('.checkin')
 const statusText = book.querySelector('.status')
 
 
@@ -51,9 +51,9 @@ statusText.style.color = STATUS_MAP[currentStatus].color
 
 checkinBtn.style.color = ''
 const book2 = document.querySelector('#book2')
-const reserveBtn2 = book2.querySelector('.reserve')
-const checkoutBtn2 = book2.querySelector('.checkout')
-const checkinBtn2 = book2.querySelector('.checkin')
+const reserveB2 = book2.querySelector('.reserve')
+const checkoutB2 = book2.querySelector('.checkout')
+const checkinB2 = book2.querySelector('.checkin')
 const statusText2 = book2.querySelector('.status')
 
 // Get the current status of the book
@@ -74,9 +74,9 @@ statusText2.style.color = STATUS_MAP[currentStatus2].color
 
 checkinBtn2.style.color = ''
 const book3 = document.querySelector('#book3')
-const reserveBtn3 = book3.querySelector('.reserve')
-const checkoutBtn3 = book3.querySelector('.checkout')
-const checkinBtn3 = book3.querySelector('.checkin')
+const reserveB3 = book3.querySelector('.reserve')
+const checkoutB3 = book3.querySelector('.checkout')
+const checkinB3 = book3.querySelector('.checkin')
 const statusText3 = book3.querySelector('.status')
 
 // Get the current status of the book
