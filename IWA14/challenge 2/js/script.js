@@ -7,9 +7,9 @@ function multiply  (a, b)  {
 }
 
 function internal() {
- add = this.add(this.internal.a, this.internal.b);
- multiply = this.multiply( add, this.internal.c)
- console.log(multiply)
+ const added = this.add(this.internal.a, this.internal.b);
+ const multiplied = this.multiply( added, this.internal.c)
+ console.log(multiplied)
 	// return this
 }
 

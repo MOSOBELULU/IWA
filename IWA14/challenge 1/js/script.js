@@ -9,6 +9,7 @@ const logTwice = (parameter) => {
 
 function hobby () {
   logTwice(`Hello, ${firstName} (${age}). I love ${hobbys}!`)
+  logTwice("lulu")
 }
 
 hobby();
