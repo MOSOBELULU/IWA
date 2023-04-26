@@ -90,6 +90,8 @@ const createHtml = (athlete) => {
 
   let sum = 0
   let i = 0;
+  console.log("time.length")
+  console.log(time.length)
   while ( i < time.length ) {
     sum += time[i]
     i++
