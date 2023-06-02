@@ -21,8 +21,7 @@ const createArray = (length) => {
     for (let i = 0; i < length; i++) {
         result.push(i);
     }
-    return result;
-};
+    return result;};
 const createData = function(){
     const current = new Date();
     current.setDate(1);

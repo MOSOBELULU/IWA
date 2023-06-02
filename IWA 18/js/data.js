@@ -24,12 +24,11 @@ export const TABLES = [
  * before-hand just yet since the app doesn't yet create the HTML dynamically.
  * However there is room to build this functionality out at the future point.
  */
-export const COLUMNS = [
-    'ordered',
+export const COLUMNS = [ 
+     'ordered',
     'preparing',
     'served',
 ]
-
 /**
  * The active state of the app expressed as an object literal. This should serve
  * as the single source of truth for the state that the app is in. While it
@@ -55,8 +54,8 @@ export const state = {
  * ensure additional uniqueness.
  */
 const createUniqueId = () => {
-    const random1 = Math.floor(Math.random() * 10000000000000000)
-    const random2 = Math.floor(Math.random() * 10000000000000000)
+    const random1 = Math.floor(Math.random() * 1000000000000000)
+    const random2 = Math.floor(Math.random() * 1000000000000000)
     const timestamp = new Date().getTime()
     return `${random1}-${timestamp}-${random2}`
 }
